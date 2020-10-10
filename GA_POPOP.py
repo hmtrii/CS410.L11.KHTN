@@ -171,8 +171,8 @@ if __name__ == "__main__":
     MRPSs = []
     Evaluations = []
     for bisection, group in zip(range(10), seed_groups):
-        print('{}-th bisection'.format(bisection))
-        f.write("\t{}-th bisection\n".format(bisection))
+        print('{}-th bisection'.format(bisection + 1))
+        f.write("\t{}-th bisection\n".format(bisection + 1))
         # print(group)
 
         global number_of_evaluations

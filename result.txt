@@ -1,0 +1,45 @@
+- l = 10, tournament size: 4, type function: oneMax, type crossover: 1X
+	0-th bisection
+			N_upper after stage 1: 64
+			MRPS: 40
+			Average number of evaluations: 5526.4
+	1-th bisection
+			N_upper after stage 1: 64
+			MRPS: 34
+			Average number of evaluations: 7104.0
+	2-th bisection
+			N_upper after stage 1: 32
+			MRPS: 20
+			Average number of evaluations: 2792.0
+	3-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 2115.2
+	4-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 2555.2
+	5-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 2248.0
+	6-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 1896.0
+	7-th bisection
+			N_upper after stage 1: 64
+			MRPS: 40
+			Average number of evaluations: 6881.6
+	8-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 2982.4
+	9-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 3561.6
+	Mean MRPS: 27.8
+	std MRPS: 6.95
+	Mean number of evalution: 3766.24
+	std number of evaluations: 1885.34
