@@ -1,14 +1,8 @@
 import numpy as np
 import argparse
 
-# number_of_evaluations = 0
-
 # Initialize
 def Initialize(population_size, number_of_parameters):
-    # population = []
-    # for _ in range(population_size):
-    #     population.append(np.random.randint(2, size=number_of_parameters))
-
     population = np.random.randint(2, size=(population_size, number_of_parameters))
 
     return population
@@ -165,7 +159,7 @@ if __name__ == "__main__":
         
 
     f = open('result.txt', 'a')
-    f.write('- l = {}, tournament size: {}, type function: {}, type crossover: {}\n'.format(l, tour_size, type_func, type_cross))
+    f.write('\n- l = {}, tournament size: {}, type function: {}, type crossover: {}\n'.format(l, tour_size, type_func, type_cross))
     
     seed_groups = [(18520176+i) for i in range(0,100,10)]
     MRPSs = []
@@ -177,6 +171,8 @@ if __name__ == "__main__":
 
         global number_of_evaluations
         number_of_evaluations = 0
+
+        num_fails = 0
 
         # Giai đoạn 1: Tìm cận trên
         N_upper = 4
@@ -197,13 +193,14 @@ if __name__ == "__main__":
             N_upper = N_upper * 2
             if N_upper > 8192:
                 exceed = True
+                num_fails += 1
                 print('N_upper exceed 8192')
                 f.write("\t\t\tN_upper exceed 8192\n")
                 break
                 
         # Giai đoạn 2: Tìm giá trị của MRPS
         if exceed == True:
-            break
+            continue
         else:
             N_lower = N_upper / 2
             while (N_upper - N_lower) / N_upper > 0.1:
@@ -224,24 +221,28 @@ if __name__ == "__main__":
                     break
         
         MRPSs.append(N_upper)
-        Evaluations.append(number_of_evaluations/10)
+        average_number_evaluations = number_of_evaluations / (10 - num_fails)
+        Evaluations.append(average_number_evaluations)
         print('MRPS: {}'.format(N_upper))
         f.write("\t\t\tMRPS: {}\n".format(N_upper))
-        print('Average number of evaluations: {}'.format(number_of_evaluations / 10))
-        f.write("\t\t\tAverage number of evaluations: {}\n".format(number_of_evaluations / 10))
+        print('Average number of evaluations: {}'.format(average_number_evaluations))
+        f.write("\t\t\tAverage number of evaluations: {}\n".format(average_number_evaluations))
 
-    mean_MRPS = np.mean(MRPSs).round(2)
-    print('Mean MRPS: {}'.format(mean_MRPS))
-    f.write('\tMean MRPS: {}\n'.format(mean_MRPS))
+    if len(MRPSs) != 0:
+        mean_MRPS = np.mean(MRPSs).round(2)
+        print('Mean MRPS: {}'.format(mean_MRPS))
+        f.write('\tMean MRPS: {}\n'.format(mean_MRPS))
 
-    std_MRPS = np.std(MRPSs).round(2)
-    print('std MRPS: {}'.format(std_MRPS))
-    f.write('\tstd MRPS: {}\n'.format(std_MRPS))
+        std_MRPS = np.std(MRPSs).round(2)
+        print('std MRPS: {}'.format(std_MRPS))
+        f.write('\tstd MRPS: {}\n'.format(std_MRPS))
 
-    mean_eval = np.mean(Evaluations).round(2)
-    print('Mean number of evalution: {}'.format(mean_eval))
-    f.write('\tMean number of evalution: {}\n'.format(mean_eval))
+        mean_eval = np.mean(Evaluations).round(2)
+        print('Mean number of evalution: {}'.format(mean_eval))
+        f.write('\tMean number of evalution: {}\n'.format(mean_eval))
 
-    std_eval = np.std(Evaluations).round(2)
-    print('std number of evaluations: {}'.format(std_eval))
-    f.write('\tstd number of evaluations: {}'.format(std_eval))
+        std_eval = np.std(Evaluations).round(2)
+        print('std number of evaluations: {}'.format(std_eval))
+        f.write('\tstd number of evaluations: {}\n'.format(std_eval))
+
+    f.close()

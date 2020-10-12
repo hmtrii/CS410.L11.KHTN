@@ -1,41 +1,41 @@
 - l = 10, tournament size: 4, type function: oneMax, type crossover: 1X
-	0-th bisection
+	1-th bisection
 			N_upper after stage 1: 64
 			MRPS: 40
 			Average number of evaluations: 5526.4
-	1-th bisection
+	2-th bisection
 			N_upper after stage 1: 64
 			MRPS: 34
 			Average number of evaluations: 7104.0
-	2-th bisection
+	3-th bisection
 			N_upper after stage 1: 32
 			MRPS: 20
 			Average number of evaluations: 2792.0
-	3-th bisection
-			N_upper after stage 1: 32
-			MRPS: 24
-			Average number of evaluations: 2115.2
 	4-th bisection
 			N_upper after stage 1: 32
 			MRPS: 24
-			Average number of evaluations: 2555.2
+			Average number of evaluations: 2115.2
 	5-th bisection
 			N_upper after stage 1: 32
 			MRPS: 24
-			Average number of evaluations: 2248.0
+			Average number of evaluations: 2555.2
 	6-th bisection
 			N_upper after stage 1: 32
 			MRPS: 24
-			Average number of evaluations: 1896.0
+			Average number of evaluations: 2248.0
 	7-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 1896.0
+	8-th bisection
 			N_upper after stage 1: 64
 			MRPS: 40
 			Average number of evaluations: 6881.6
-	8-th bisection
+	9-th bisection
 			N_upper after stage 1: 32
 			MRPS: 24
 			Average number of evaluations: 2982.4
-	9-th bisection
+	10-th bisection
 			N_upper after stage 1: 32
 			MRPS: 24
 			Average number of evaluations: 3561.6
@@ -43,3 +43,785 @@
 	std MRPS: 6.95
 	Mean number of evalution: 3766.24
 	std number of evaluations: 1885.34
+	
+- l = 20, tournament size: 4, type function: oneMax, type crossover: 1X
+	1-th bisection
+			N_upper after stage 1: 128
+			MRPS: 68
+			Average number of evaluations: 22120.0
+	2-th bisection
+			N_upper after stage 1: 64
+			MRPS: 48
+			Average number of evaluations: 9742.4
+	3-th bisection
+			N_upper after stage 1: 128
+			MRPS: 72
+			Average number of evaluations: 21504.0
+	4-th bisection
+			N_upper after stage 1: 128
+			MRPS: 80
+			Average number of evaluations: 15833.6
+	5-th bisection
+			N_upper after stage 1: 64
+			MRPS: 48
+			Average number of evaluations: 8051.2
+	6-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 17496.0
+	7-th bisection
+			N_upper after stage 1: 128
+			MRPS: 72
+			Average number of evaluations: 22995.2
+	8-th bisection
+			N_upper after stage 1: 64
+			MRPS: 48
+			Average number of evaluations: 7201.6
+	9-th bisection
+			N_upper after stage 1: 128
+			MRPS: 68
+			Average number of evaluations: 22496.0
+	10-th bisection
+			N_upper after stage 1: 128
+			MRPS: 68
+			Average number of evaluations: 22318.4
+	Mean MRPS: 66.8
+	std MRPS: 14.65
+	Mean number of evalution: 16975.84
+	std number of evaluations: 6093.42
+
+- l = 40, tournament size: 4, type function: oneMax, type crossover: 1X
+	1-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 50806.4
+	2-th bisection
+			N_upper after stage 1: 512
+			MRPS: 288
+			Average number of evaluations: 123915.2
+	3-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 46233.6
+	4-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 58888.0
+	5-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 60144.0
+	6-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 44964.8
+	7-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 40208.0
+	8-th bisection
+			N_upper after stage 1: 512
+			MRPS: 272
+			Average number of evaluations: 139507.2
+	9-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 42278.4
+	10-th bisection
+			N_upper after stage 1: 512
+			MRPS: 272
+			Average number of evaluations: 140974.4
+	Mean MRPS: 217.6
+	std MRPS: 39.32
+	Mean number of evalution: 74792.0
+	std number of evaluations: 39978.12
+
+- l = 80, tournament size: 4, type function: oneMax, type crossover: 1X
+	1-th bisection
+			N_upper after stage 1: 512
+			MRPS: 384
+			Average number of evaluations: 165545.6
+	2-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 640
+			Average number of evaluations: 353244.8
+	3-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 576
+			Average number of evaluations: 377088.0
+	4-th bisection
+			N_upper after stage 1: 512
+			MRPS: 384
+			Average number of evaluations: 134000.0
+	5-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 768
+			Average number of evaluations: 373617.6
+	6-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 640
+			Average number of evaluations: 391736.0
+	7-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 640
+			Average number of evaluations: 390760.0
+	8-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 768
+			Average number of evaluations: 233848.0
+	9-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 576
+			Average number of evaluations: 359664.0
+	10-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 576
+			Average number of evaluations: 362568.0
+	Mean MRPS: 595.2
+	std MRPS: 124.92
+	Mean number of evalution: 314207.2
+	std number of evaluations: 92906.49
+
+- l = 160, tournament size: 4, type function: oneMax, type crossover: 1X
+	1-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 3072
+			Average number of evaluations: 1987091.2
+	2-th bisection
+			N_upper after stage 1: 8192
+			MRPS: 4352
+			Average number of evaluations: 5127446.4
+	3-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2560
+			Average number of evaluations: 2087995.2
+	4-th bisection
+			N_upper after stage 1: 8192
+			MRPS: 4352
+			Average number of evaluations: 5205774.4
+	5-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2560
+			Average number of evaluations: 1935971.2
+	6-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2304
+			Average number of evaluations: 2453590.4
+	7-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2560
+			Average number of evaluations: 1981865.6
+	8-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 3072
+			Average number of evaluations: 1827086.4
+	9-th bisection
+			N_upper after stage 1: 8192
+			MRPS: 4608
+			Average number of evaluations: 4452704.0
+	10-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2560
+			Average number of evaluations: 2004120.0
+	Mean MRPS: 3200.0
+	std MRPS: 843.25
+	Mean number of evalution: 2906364.48
+	std number of evaluations: 1345611.4
+
+- l = 10, tournament size: 4, type function: oneMax, type crossover: UX
+	1-th bisection
+			N_upper after stage 1: 32
+			MRPS: 18
+			Average number of evaluations: 2750.4
+	2-th bisection
+			N_upper after stage 1: 16
+			MRPS: 10
+			Average number of evaluations: 1064.0
+	3-th bisection
+			N_upper after stage 1: 32
+			MRPS: 18
+			Average number of evaluations: 2836.8
+	4-th bisection
+			N_upper after stage 1: 32
+			MRPS: 18
+			Average number of evaluations: 2800.0
+	5-th bisection
+			N_upper after stage 1: 32
+			MRPS: 18
+			Average number of evaluations: 2891.2
+	6-th bisection
+			N_upper after stage 1: 32
+			MRPS: 20
+			Average number of evaluations: 2364.8
+	7-th bisection
+			N_upper after stage 1: 16
+			MRPS: 12
+			Average number of evaluations: 790.4
+	8-th bisection
+			N_upper after stage 1: 16
+			MRPS: 12
+			Average number of evaluations: 1003.2
+	9-th bisection
+			N_upper after stage 1: 32
+			MRPS: 18
+			Average number of evaluations: 2768.0
+	10-th bisection
+			N_upper after stage 1: 32
+			MRPS: 20
+			Average number of evaluations: 2294.4
+	Mean MRPS: 16.4
+	std MRPS: 3.44
+	Mean number of evalution: 2156.32
+	std number of evaluations: 812.13
+	
+- l = 20, tournament size: 4, type function: oneMax, type crossover: UX
+	1-th bisection
+			N_upper after stage 1: 64
+			MRPS: 48
+			Average number of evaluations: 5520.0
+	2-th bisection
+			N_upper after stage 1: 64
+			MRPS: 34
+			Average number of evaluations: 9888.0
+	3-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 2548.8
+	4-th bisection
+			N_upper after stage 1: 64
+			MRPS: 34
+			Average number of evaluations: 10177.6
+	5-th bisection
+			N_upper after stage 1: 64
+			MRPS: 34
+			Average number of evaluations: 9507.2
+	6-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 2950.4
+	7-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 2979.2
+	8-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 2771.2
+	9-th bisection
+			N_upper after stage 1: 32
+			MRPS: 24
+			Average number of evaluations: 3403.2
+	10-th bisection
+			N_upper after stage 1: 64
+			MRPS: 34
+			Average number of evaluations: 9870.4
+	Mean MRPS: 30.4
+	std MRPS: 7.53
+	Mean number of evalution: 5961.6
+	std number of evaluations: 3279.78
+
+- l = 40, tournament size: 4, type function: oneMax, type crossover: UX
+	1-th bisection
+			N_upper after stage 1: 64
+			MRPS: 48
+			Average number of evaluations: 8347.2
+	2-th bisection
+			N_upper after stage 1: 64
+			MRPS: 48
+			Average number of evaluations: 7724.8
+	3-th bisection
+			N_upper after stage 1: 128
+			MRPS: 68
+			Average number of evaluations: 27171.2
+	4-th bisection
+			N_upper after stage 1: 128
+			MRPS: 80
+			Average number of evaluations: 23638.4
+	5-th bisection
+			N_upper after stage 1: 64
+			MRPS: 40
+			Average number of evaluations: 10240.0
+	6-th bisection
+			N_upper after stage 1: 64
+			MRPS: 48
+			Average number of evaluations: 8112.0
+	7-th bisection
+			N_upper after stage 1: 64
+			MRPS: 48
+			Average number of evaluations: 10446.4
+	8-th bisection
+			N_upper after stage 1: 64
+			MRPS: 48
+			Average number of evaluations: 7601.6
+	9-th bisection
+			N_upper after stage 1: 64
+			MRPS: 40
+			Average number of evaluations: 11041.6
+	10-th bisection
+			N_upper after stage 1: 128
+			MRPS: 68
+			Average number of evaluations: 29576.0
+	Mean MRPS: 53.6
+	std MRPS: 12.8
+	Mean number of evalution: 14389.92
+	std number of evaluations: 8306.2
+
+- l = 80, tournament size: 4, type function: oneMax, type crossover: UX
+	1-th bisection
+			N_upper after stage 1: 128
+			MRPS: 80
+			Average number of evaluations: 33736.0
+	2-th bisection
+			N_upper after stage 1: 128
+			MRPS: 80
+			Average number of evaluations: 28768.0
+	3-th bisection
+			N_upper after stage 1: 128
+			MRPS: 80
+			Average number of evaluations: 31606.4
+	4-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 25110.4
+	5-th bisection
+			N_upper after stage 1: 128
+			MRPS: 80
+			Average number of evaluations: 30179.2
+	6-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 25260.8
+	7-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 22614.4
+	8-th bisection
+			N_upper after stage 1: 256
+			MRPS: 136
+			Average number of evaluations: 85502.4
+	9-th bisection
+			N_upper after stage 1: 128
+			MRPS: 80
+			Average number of evaluations: 33244.8
+	10-th bisection
+			N_upper after stage 1: 128
+			MRPS: 80
+			Average number of evaluations: 32702.4
+	Mean MRPS: 90.4
+	std MRPS: 16.8
+	Mean number of evalution: 34872.48
+	std number of evaluations: 17262.51
+
+- l = 160, tournament size: 4, type function: oneMax, type crossover: UX
+	1-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 34987.2
+	2-th bisection
+			N_upper after stage 1: 256
+			MRPS: 136
+			Average number of evaluations: 123436.8
+	3-th bisection
+			N_upper after stage 1: 256
+			MRPS: 144
+			Average number of evaluations: 106377.6
+	4-th bisection
+			N_upper after stage 1: 256
+			MRPS: 160
+			Average number of evaluations: 97403.2
+	5-th bisection
+			N_upper after stage 1: 256
+			MRPS: 144
+			Average number of evaluations: 99969.6
+	6-th bisection
+			N_upper after stage 1: 256
+			MRPS: 144
+			Average number of evaluations: 108736.0
+	7-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 33091.2
+	8-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 65705.6
+	9-th bisection
+			N_upper after stage 1: 256
+			MRPS: 144
+			Average number of evaluations: 110016.0
+	10-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 67955.2
+	Mean MRPS: 144.8
+	std MRPS: 30.87
+	Mean number of evalution: 84767.84
+	std number of evaluations: 30593.43
+
+- l = 10, tournament size: 4, type function: trap5, type crossover: 1X
+	1-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 14230.4
+	2-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 28361.6
+	3-th bisection
+			N_upper after stage 1: 256
+			MRPS: 144
+			Average number of evaluations: 30467.2
+	4-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 10868.8
+	5-th bisection
+			N_upper after stage 1: 256
+			MRPS: 136
+			Average number of evaluations: 30985.6
+	6-th bisection
+			N_upper after stage 1: 256
+			MRPS: 136
+			Average number of evaluations: 32516.8
+	7-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 9083.2
+	8-th bisection
+			N_upper after stage 1: 256
+			MRPS: 144
+			Average number of evaluations: 31681.6
+	9-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 11700.8
+	10-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 8017.6
+	Mean MRPS: 123.2
+	std MRPS: 31.03
+	Mean number of evalution: 20791.36
+	std number of evaluations: 10175.11
+
+- l = 20, tournament size: 4, type function: trap5, type crossover: 1X
+	1-th bisection
+			N_upper after stage 1: 512
+			MRPS: 384
+			Average number of evaluations: 70636.8
+	2-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 38224.0
+	3-th bisection
+			N_upper after stage 1: 512
+			MRPS: 272
+			Average number of evaluations: 100048.0
+	4-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 35384.0
+	5-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 544
+			Average number of evaluations: 199825.6
+	6-th bisection
+			N_upper after stage 1: 512
+			MRPS: 288
+			Average number of evaluations: 100704.0
+	7-th bisection
+			N_upper after stage 1: 512
+			MRPS: 320
+			Average number of evaluations: 80809.6
+	8-th bisection
+			N_upper after stage 1: 512
+			MRPS: 288
+			Average number of evaluations: 97716.8
+	9-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 36030.4
+	10-th bisection
+			N_upper after stage 1: 512
+			MRPS: 384
+			Average number of evaluations: 52435.2
+	Mean MRPS: 305.6
+	std MRPS: 104.78
+	Mean number of evalution: 81181.44
+	std number of evaluations: 46910.52
+
+- l = 40, tournament size: 4, type function: trap5, type crossover: 1X
+	1-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 768
+			Average number of evaluations: 197225.6
+	2-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 640
+			Average number of evaluations: 240891.2
+	3-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 768
+			Average number of evaluations: 267790.4
+	4-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 768
+			Average number of evaluations: 232137.6
+	5-th bisection
+			N_upper after stage 1: 2048
+			MRPS: 1152
+			Average number of evaluations: 616593.6
+	6-th bisection
+			N_upper after stage 1: 512
+			MRPS: 384
+			Average number of evaluations: 111344.0
+	7-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 768
+			Average number of evaluations: 169276.8
+	8-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 640
+			Average number of evaluations: 234323.2
+	9-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 640
+			Average number of evaluations: 259048.0
+	10-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 768
+			Average number of evaluations: 262260.8
+	Mean MRPS: 729.6
+	std MRPS: 181.47
+	Mean number of evalution: 259089.12
+	std number of evaluations: 127784.23
+
+- l = 80, tournament size: 4, type function: trap5, type crossover: 1X
+	1-th bisection
+			N_upper after stage 1: 2048
+			MRPS: 1536
+			Average number of evaluations: 625676.8
+	2-th bisection
+			N_upper after stage 1: 8192
+			MRPS: 4352
+			Average number of evaluations: 3817164.8
+	3-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 3072
+			Average number of evaluations: 1192918.4
+	4-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 3072
+			Average number of evaluations: 1679766.4
+	5-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 3072
+			Average number of evaluations: 1488686.4
+	6-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 3072
+			Average number of evaluations: 1151148.8
+	7-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2560
+			Average number of evaluations: 1337697.6
+	8-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2560
+			Average number of evaluations: 1524720.0
+	9-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2304
+			Average number of evaluations: 1735825.6
+	10-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2304
+			Average number of evaluations: 1671992.0
+	Mean MRPS: 2790.4
+	std MRPS: 700.62
+	Mean number of evalution: 1622559.68
+	std number of evaluations: 796496.91
+	
+- l = 160, tournament size: 4, type function: trap5, type crossover: 1X
+	1-th bisection
+			N_upper exceed 8192
+	2-th bisection
+			N_upper exceed 8192
+	3-th bisection
+			N_upper exceed 8192
+	4-th bisection
+			N_upper exceed 8192
+	5-th bisection
+			N_upper exceed 8192
+	6-th bisection
+			N_upper exceed 8192
+	7-th bisection
+			N_upper exceed 8192
+	8-th bisection
+			N_upper exceed 8192
+	9-th bisection
+			N_upper exceed 8192
+	10-th bisection
+			N_upper exceed 8192
+	Mean MRPS: nan
+	std MRPS: nan
+	Mean number of evalution: nan
+	std number of evaluations: nan
+
+- l = 10, tournament size: 4, type function: trap5, type crossover: UX
+	1-th bisection
+			N_upper after stage 1: 512
+			MRPS: 320
+			Average number of evaluations: 66196.8
+	2-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 32508.8
+	3-th bisection
+			N_upper after stage 1: 512
+			MRPS: 320
+			Average number of evaluations: 63673.6
+	4-th bisection
+			N_upper after stage 1: 1024
+			MRPS: 544
+			Average number of evaluations: 171616.0
+	5-th bisection
+			N_upper after stage 1: 512
+			MRPS: 384
+			Average number of evaluations: 66304.0
+	6-th bisection
+			N_upper after stage 1: 512
+			MRPS: 384
+			Average number of evaluations: 57432.0
+	7-th bisection
+			N_upper after stage 1: 256
+			MRPS: 192
+			Average number of evaluations: 36532.8
+	8-th bisection
+			N_upper after stage 1: 512
+			MRPS: 320
+			Average number of evaluations: 64132.8
+	9-th bisection
+			N_upper after stage 1: 128
+			MRPS: 96
+			Average number of evaluations: 12115.2
+	10-th bisection
+			N_upper after stage 1: 512
+			MRPS: 320
+			Average number of evaluations: 70259.2
+	Mean MRPS: 307.2
+	std MRPS: 118.18
+	Mean number of evalution: 64077.12
+	std number of evaluations: 40139.62
+
+- l = 20, tournament size: 4, type function: trap5, type crossover: UX
+	1-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 3072
+			Average number of evaluations: 1196915.2
+	2-th bisection
+			N_upper after stage 1: 2048
+			MRPS: 1536
+			Average number of evaluations: 624118.4
+	3-th bisection
+			N_upper after stage 1: 8192
+			MRPS: 4352
+			Average number of evaluations: 2998828.8
+	4-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2304
+			Average number of evaluations: 1414507.2
+	5-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2304
+			Average number of evaluations: 1396036.8
+	6-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 3072
+			Average number of evaluations: 939984.0
+	7-th bisection
+			N_upper after stage 1: 8192
+			MRPS: 4352
+			Average number of evaluations: 3124707.2
+	8-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2304
+			Average number of evaluations: 1433988.8
+	9-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2560
+			Average number of evaluations: 1185067.2
+	10-th bisection
+			N_upper after stage 1: 4096
+			MRPS: 2560
+			Average number of evaluations: 1089030.4
+	Mean MRPS: 2841.6
+	std MRPS: 860.18
+	Mean number of evalution: 1540318.4
+	std number of evaluations: 795808.14
+
+- l = 40, tournament size: 4, type function: trap5, type crossover: UX
+	1-th bisection
+			N_upper exceed 8192
+	2-th bisection
+			N_upper exceed 8192
+	3-th bisection
+			N_upper exceed 8192
+	4-th bisection
+			N_upper exceed 8192
+	5-th bisection
+			N_upper exceed 8192
+	6-th bisection
+			N_upper exceed 8192
+	7-th bisection
+			N_upper exceed 8192
+	8-th bisection
+			N_upper exceed 8192
+	9-th bisection
+			N_upper exceed 8192
+	10-th bisection
+			N_upper exceed 8192
+
+- l = 80, tournament size: 4, type function: trap5, type crossover: UX
+	1-th bisection
+			N_upper exceed 8192
+	2-th bisection
+			N_upper exceed 8192
+	3-th bisection
+			N_upper exceed 8192
+	4-th bisection
+			N_upper exceed 8192
+	5-th bisection
+			N_upper exceed 8192
+	6-th bisection
+			N_upper exceed 8192
+	7-th bisection
+			N_upper exceed 8192
+	8-th bisection
+			N_upper exceed 8192
+	9-th bisection
+			N_upper exceed 8192
+	10-th bisection
+			N_upper exceed 8192
+
+- l = 160, tournament size: 4, type function: trap5, type crossover: UX
+	1-th bisection
+			N_upper exceed 8192
+	2-th bisection
+			N_upper exceed 8192
+	3-th bisection
+			N_upper exceed 8192
+	4-th bisection
+			N_upper exceed 8192
+	5-th bisection
+			N_upper exceed 8192
+	6-th bisection
+			N_upper exceed 8192
+	7-th bisection
+			N_upper exceed 8192
+	8-th bisection
+			N_upper exceed 8192
+	9-th bisection
+			N_upper exceed 8192
+	10-th bisection
+			N_upper exceed 8192
