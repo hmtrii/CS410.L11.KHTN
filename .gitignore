@@ -152,3 +152,4 @@ result.txt
 plot.py
 *.png
 test.py
+.vscode
