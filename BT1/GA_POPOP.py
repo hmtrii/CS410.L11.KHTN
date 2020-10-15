@@ -244,5 +244,5 @@ if __name__ == "__main__":
         std_eval = np.std(Evaluations).round(2)
         print('std number of evaluations: {}'.format(std_eval))
         f.write('\tstd number of evaluations: {}\n'.format(std_eval))
-
+        
     f.close()
