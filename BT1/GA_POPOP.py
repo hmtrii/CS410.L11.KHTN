@@ -121,14 +121,14 @@ def Terminate(population):
 
 def Run(population_size, parameters_size, tour_size, type_function, type_cross, k=-9999):
     population = Initialize(population_size, parameters_size)
-    number_iteration = 0
+    # number_iteration = 0
     while not Terminate(population):
         # print(population)
         offspring = Crossover(population, l, type_cross)
         popop = Popop(population, offspring)
         population = np.concatenate([TournamentSelection(popop, tour_size, type_function, k), \
             TournamentSelection(popop, tour_size, type_function, k)])
-        number_iteration += 1
+        # number_iteration += 1
         # print(number_iteration)
         # print(population)
 
@@ -158,7 +158,7 @@ if __name__ == "__main__":
         ap.error("k argument is required when type_func is trap5")
         
 
-    f = open('result.txt', 'a')
+    f = open('result_ver2.txt', 'a')
     f.write('\n- l = {}, tournament size: {}, type function: {}, type crossover: {}\n'.format(l, tour_size, type_func, type_cross))
     
     seed_groups = [(18520176+i) for i in range(0,100,10)]
@@ -208,7 +208,7 @@ if __name__ == "__main__":
                 past_all_test = True
                 for i in range(group+0, group+10):
                     np.random.seed(i)
-                    result = Run(N_upper, l, tour_size, type_func, type_cross, k)
+                    result = Run(N, l, tour_size, type_func, type_cross, k)
                     if not is_Success(result):
                         past_all_test = False
                         break
